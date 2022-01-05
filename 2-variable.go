@@ -15,6 +15,8 @@ func sub() {
 	xs := "test"
 	xt, xf := true, false
 	fmt.Println(xi, xf64, xs, xt, xf) //関数内でのみ有効な書き方
+	fmt.Printf("%T\n", xf64)          //型を調べてプリントしてくれる
+	fmt.Printf("%T\n", xi)            //\nで出力の際に改行してくれる
 }
 
 func main() {
