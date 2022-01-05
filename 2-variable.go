@@ -11,6 +11,8 @@ var (
 
 func sub() {
 	xi := 1
+	xi = 2 //上書き
+	// xi := 2 //と再宣言するとエラーになる
 	xf64 := 1.2
 	xs := "test"
 	xt, xf := true, false
